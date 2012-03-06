@@ -37,8 +37,7 @@ public class ChainTest {
 
 		Handler withdrawMoneyRequest = new WithdrawMoneyHandler(accounts,money,display);
 		classUnderTest = new OpenAccountHandler(accounts,backGroundCheck,display);		
-		classUnderTest.setHandler(withdrawMoneyRequest);
-				
+		classUnderTest.setHandler(withdrawMoneyRequest);	
 	}
 	
 
